@@ -12,7 +12,7 @@ provide a `setup.py` for `pip`-installations along with a number of [other opini
 
 You can install this version from `master` with:
 
-    pip install git+https://github.com/ansemjo/truepolyglot
+    pip install git+https://github.com/JoshuaWierenga/truepolyglot@cap-pypdf2-version
 
 Notably, this fork uses PyPDF2's `cloneReaderDocumentRoot`, which may hiccup on malformed PDFs more easily but
 copies the entire document including cross-references and section labels. The `setup.py` also installs a command
