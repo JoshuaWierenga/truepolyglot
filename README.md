@@ -2,7 +2,8 @@
 
 Truepolyglot is polyglot file generator project. It means  the generated file is composed of several file formats. The same file can be opened as a ZIP file and as a PDF file for example. The idea of this project comes from the work of [Ange Albertini](https://github.com/corkami), [International Journal of Proof-of-Concept or Get The Fuck Out](https://www.alchemistowl.org/pocorgtfo/pocorgtfo07.pdf) and [Julia Wolf](https://www.troopers.de/wp-content/uploads/2011/04/TR11_Wolf_OMG_PDF.pdf) that explain how we can build a polyglot file.\
 Polyglot file can be boring to build, even more if you want to respect the file format correctly.\
-That's why I decided to build a tool to generate them.\
+That's why I decided to build a tool to generate them.
+
 My main motivation was the technical challenge.
 
 ## :warning: FORKED
@@ -110,10 +111,10 @@ TruePolyglot v1.6.2
 ## Code ##
 
 ```
-git clone https://git.hackade.org/truepolyglot.git/
+git clone https://git.hackade.org/ben/truepolyglot.git/
 ```
 
-or download [truepolyglot-1.6.2.tar.gz](https://git.hackade.org/truepolyglot.git/snapshot/truepolyglot-1.6.2.tar.gz)
+or download [truepolyglot-1.6.2.tar.gz](https://git.hackade.org/ben/truepolyglot/archive/1.6.2.tar.gz)
 
 ## How to detect a polyglot file ? ##
 
@@ -125,7 +126,7 @@ You can use [binwalk](https://github.com/ReFirmLabs/binwalk) on a file to see if
 
 ## Credits ##
 
-Copyright © 2018-2019 ben@hackade.org
+Copyright © 2018-2021 ben@hackade.org
 
 TruePolyglot is released under [Unlicence](https://unlicense.org/) except for the following libraries:
 
